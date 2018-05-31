@@ -85,6 +85,12 @@
      <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\EditorGUIx.cs" />
      <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\EnumFlagDrawer.cs" />
      <Compile Include="Assets\AstarPathfindingProject\PackageTools\Editor\OptimizationHandler.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\ArcCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\BezierCurveCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\CapsuleCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\EllipseCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\RoundedBoxCollider2D_Editor.cs" />
+     <Compile Include="Assets\Custom 2D Colliders\Scripts\Editor\StarCollider2D_Editor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\BaseClasses\OnAnimatorUpdateActionEditorBase.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorAnimatorRootActionEditor.cs" />
      <Compile Include="Assets\PlayMaker\Actions\Animator\Editor\GetAnimatorBodyActionEditor.cs" />

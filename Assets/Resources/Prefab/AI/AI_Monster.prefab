@@ -177,7 +177,7 @@ MonoBehaviour:
   radius: 0.1
   height: 1
   locked: 0
-  lockWhenNotMoving: 0
+  lockWhenNotMoving: 1
   agentTimeHorizon: 0.6
   obstacleTimeHorizon: 0.2
   maxNeighbours: 10
