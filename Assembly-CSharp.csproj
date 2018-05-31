@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}</ProjectGuid>
+    <ProjectGuid>{140DB0F4-0640-CDAA-D54A-93F2C425AC28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -1074,8 +1074,11 @@
      <Compile Include="Assets\PlayMaker\Actions\Web\WWWObject.cs" />
      <Compile Include="Assets\PlayMaker\FsmProcessor.cs" />
      <Compile Include="Assets\PlayMaker\UpdateHelper.cs" />
+     <Compile Include="Assets\Script\Character\TargetNodeSelector.cs" />
+     <Compile Include="Assets\Script\Common\Accessor.cs" />
      <Compile Include="Assets\Script\Pathfinding\TargetNodes.cs" />
      <Compile Include="Assets\Script\Spawner\Spawner.cs" />
+     <Compile Include="Assets\Script\Util\TargetSelector.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.cginc" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\PlayMaker\Templates\Readme.txt" />
@@ -1097,7 +1100,7 @@
      <None Include="Assets\PlayMaker\Editor\UnityEngine.UI.xml" />
      <None Include="Assets\AstarPathfindingProject\link.xml" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>D:/Works/Study/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
@@ -1130,19 +1133,19 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.ClipperLib">
- <HintPath>D:/Works/Study/Assets/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>D:/Works/Study/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Poly2Tri">
- <HintPath>D:/Works/Study/Assets/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpression">
- <HintPath>D:/Works/Study/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>D:/Works/Study/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Users/Daniel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>

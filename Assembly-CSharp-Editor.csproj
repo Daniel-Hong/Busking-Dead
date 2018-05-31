@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{264CDCC0-4B67-FEA1-65AA-A0C96BDBBA92}</ProjectGuid>
+    <ProjectGuid>{A1B61F05-7680-16E8-1622-E64086163CB2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -206,7 +206,7 @@
      <None Include="Assets\PlayMaker\Editor\UnityEngine.UI.xml" />
      <None Include="Assets\AstarPathfindingProject\link.xml" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>D:/Works/Study/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
@@ -308,28 +308,28 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.ClipperLib">
- <HintPath>D:/Works/Study/Assets/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>D:/Works/Study/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.Poly2Tri">
- <HintPath>D:/Works/Study/Assets/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpression">
- <HintPath>D:/Works/Study/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/PlayMaker/ConditionalExpression.dll</HintPath>
  </Reference>
  <Reference Include="ConditionalExpressionEditor">
- <HintPath>D:/Works/Study/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/PlayMaker/Editor/ConditionalExpressionEditor.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditor">
- <HintPath>D:/Works/Study/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
  </Reference>
  <Reference Include="PlayMakerEditorResources">
- <HintPath>D:/Works/Study/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
  </Reference>
  <Reference Include="PlayMaker">
- <HintPath>D:/Works/Study/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
+ <HintPath>D:/Works/BuskingDead/Assets/Plugins/PlayMaker/PlayMaker.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/Daniel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -355,7 +355,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{A7F3F650-10CB-A9F4-7FEC-FE3F2FB1DB2D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{140DB0F4-0640-CDAA-D54A-93F2C425AC28}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
