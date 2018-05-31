@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetSelector : Util.SingletonBase<TargetSelector>
+public class TargetSelector : Util.GlobalBase<TargetSelector>
 {
 	public Transform		transformCar;
 	public Transform		transformBarricade;
