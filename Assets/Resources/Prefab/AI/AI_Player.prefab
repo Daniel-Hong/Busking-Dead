@@ -176,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  radius: 0.2
+  radius: 0.1
   height: 1
   locked: 0
   lockWhenNotMoving: 0
