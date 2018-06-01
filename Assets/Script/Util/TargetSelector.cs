@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TargetSelector : Util.GlobalBase<TargetSelector>
+public class TargetSelector : MonoSingleton<TargetSelector>
 {
 	public Transform		transformCar;
 	public Transform		transformBarricade;
@@ -10,7 +10,7 @@ public class TargetSelector : Util.GlobalBase<TargetSelector>
 	[HideInInspector]
 	public List<Transform>	listTarget;
 
-	void Awake()
+	protected override void Init()
 	{
 		if (transformCar == null)
 		{
