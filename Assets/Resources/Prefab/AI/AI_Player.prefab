@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 114330651366606558}
   - component: {fileID: 114105131483642496}
   - component: {fileID: 114271954195822790}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AI_Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 4868625901655302}
   - component: {fileID: 212633015667648312}
   m_Layer: 0
-  m_Name: Sprite (1)
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

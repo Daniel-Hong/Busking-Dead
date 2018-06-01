@@ -3,3 +3,4 @@ obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
 obj/
 Temp/
 BuskingDead.sln
+*.csproj
